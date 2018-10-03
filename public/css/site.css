@@ -1,0 +1,59 @@
+.controllers_container {
+    display: block;
+}
+.video_container {
+    position: relative;
+    padding: 0 !important;
+}
+.video_container .heading {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 0 10px;
+}
+#state_span {
+    display: block;
+    padding:10px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.video_container video {
+    width: 100% !important;
+    height: auto !important;
+}
+.video_container .heading {
+    display: block;
+}
+.messages-cont {
+    padding-right: 0 !important; 
+}
+.messages-cont .heading{
+    display: block;
+}
+#conversation {
+    border:1px solid black;
+    border-radius: 10px;
+    height: 518px;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+    padding: 15px 20px 0;
+}
+#receiveMessageArea {
+    
+}
+#receiveMessageArea .heading {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+#sendMessageArea {
+    display: flex;
+}
+#sendMessageText {
+    width: 75%;
+}
+#send {
+    width: 25%;
+}

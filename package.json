@@ -1,0 +1,45 @@
+{
+  "name": "mediasoup-server",
+  "version": "1.0.7",
+  "description": "WebRTC SFU mediasoup implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tan-tan-kanarek/mediasoup-server.git"
+  },
+  "keywords": [
+    "Node.js",
+    "WebRTC",
+    "mediasoup"
+  ],
+  "author": "Johnathan Amit-Kanarek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tan-tan-kanarek/mediasoup-server/issues"
+  },
+  "homepage": "https://github.com/tan-tan-kanarek/mediasoup-server",
+  "dependencies": {
+    "bcrypt": "1.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "1.18.2",
+    "cookie-parser": "1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "3.0.0",
+    "express-session": "1.15.6",
+    "ip": "^1.1.5",
+    "lodash": "^4.17.4",
+    "mediasoup": "^1.2.5",
+    "moment": "2.19.1",
+    "mysql": "2.15.0",
+    "passport": "0.4.0",
+    "passport-local": "1.0.0",
+    "rtsp-stream": "^1.0.0",
+    "sdp-transform": "^2.3.0",
+    "socket.io": "^1.7.3",
+    "udid": "^0.1.4"
+  }
+}

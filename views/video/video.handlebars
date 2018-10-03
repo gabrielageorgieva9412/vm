@@ -1,0 +1,46 @@
+<body onload="init();">
+	<h1>Hangouts</h1>
+	<div id="roomsSelect">
+		<b>Rooms:</b>
+		<div id="rooms"></div>
+		<br/>
+		<b>New Room:</b>
+		<input type="text" id="newRoom" />
+		<input type="button" value="Join" onclick="createRoom();" />
+	</div>
+	<div id="conference">
+		<div class="controllers_container">
+			<button id="disconnect_button" onclick="dissconnect();">Disconnect</button>
+		</div>
+		
+		<div class="video_container local col-sm-6">
+			<span class="heading">Local video</span>
+			<div id="local_video_holder">
+				<video id="local_video" autoplay style="width: 160px; height: 120px; border: 1px solid black;"></video>
+			</div>
+
+			<br/>
+			<span id="state_span"></span>
+		</div>
+		<div style="display:none;" class="video_container remote">
+			<span class="heading">
+				Remote videos
+			</span>
+			<div id="remote_container"></div>
+		</div>
+		<div class="messages-cont col-sm-6">
+			<div id="receiveMessageArea" >
+				<span class="heading">
+					Received Messages:
+				</span>
+				<div id="conversation"></div>
+			</div>
+			<div id="sendMessageArea">
+				<textarea id="sendMessageText"></textarea>
+				<button id="send">Send Message</button>
+				<div id="count"></div>
+			</div>
+		</div>
+		
+	</div>
+</div>
